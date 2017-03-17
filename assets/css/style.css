@@ -1,0 +1,217 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    min-width: 320px;
+}
+
+/*===================#header=====================*/
+#header {
+    background: url(../img/header.jpg) center no-repeat;
+    background-size: cover;
+    height: 100%;
+    min-height: 500px;
+}
+
+#header .logo {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: 60px;
+    margin-left: -100px;
+    left: 50%;
+}
+
+img {
+    vertical-align: middle;
+}
+
+#header h1,
+#header .title {
+    font-size: 49px;
+    color: #fff;
+    margin-top: 275px;
+    text-transform: uppercase;
+}
+#header .title {
+    font-weight: 700;
+    margin-top: 20px;
+}
+div.form-group.header {
+    width: 335px;
+    height: 335px;
+    border-radius: 2px;
+    border: 1px solid #e6e6e6;
+    border-bottom: 2px solid #c4c4c4;
+    background: #fff;
+    font-size: 15px;
+    color: #938e8e;
+    margin: 0 auto;
+    position: relative;
+    top: 105px;
+}
+div.input-group {
+    border: 1px solid #e5e5e5;
+    border-top: 2px solid #e8e8e8;
+    border-radius: 3px;
+    margin: 0 auto;
+    top: 25px;
+    width: 90%;
+}
+.form-group img {
+    top: 45px;
+    margin: 0 auto;
+    padding: 0;
+}
+.form-group p {
+    color: #938e8e;
+    position: absolute;
+    bottom: -60px;
+    padding-left: 45px;
+}
+.btn {
+    position: relative;
+    top: 135px;
+    border-radius: 2px;
+}
+.btn-primary {
+    background: #227dd3;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    transition: background .5s;
+}
+/*===============section.boxes================*/
+div.col-md-6.left{
+    left: 195px;
+}
+.container.boxes h2 {
+    font-size: 27px;
+    font-weight: 600;
+    color: #fff;
+}
+section.boxes p {
+    color: #a4a3a3;
+}
+/*==================section.heading=========================*/
+div.row.heading-one {
+    background: #5fc18b url("../img/heading-one.jpg") no-repeat;
+}
+
+div.row.heading-two {
+    background: #44a36f url("../img/heading-two.jpg") no-repeat -45px 100px;
+}
+
+.container.block h2 {
+    font-weight: 600;
+    font-size: 39px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.container.block p {
+    color: #fff;
+    margin-bottom: 50px;
+}
+.heading-one-description {
+    width: 650px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 260px;
+}
+.heading-two-description {
+    width: 500px;
+    float: right;
+    margin: 60px 180px 0;
+    text-align: left;
+}
+.container.block .btn{
+    font-weight: 600;
+    font-size: 27px;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    background: #44a36f;
+    top: -20px;
+    padding: 10px 30px;
+}
+/*=================container.map========================*/
+.container.map{
+    background: url("../img/map.jpg") no-repeat;
+    padding: 60px 0;
+}
+.container.map.form-group{
+    width: 438px;
+    border: 1px solid #d8d8d8;
+    border-radius: 0;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+textarea.form-control {
+    height: 80px;
+}
+.form-control{
+    border-radius: 0px;
+}
+.img-map{
+    background: url(../img/ellipse.png) no-repeat;
+    margin: 0 auto;
+    width: 440px;
+    height: 440px;
+}
+.form-map{
+    width: 275px;
+    margin: 0 auto;
+    padding-top: 115px;
+}
+.form-map i{
+    color: #43a06d;
+    transition: .5s;
+}
+.form-map i:hover{
+    color: #35bd72;
+}
+.form-map > button {
+    border: 0;
+    background: none;
+}
+/*===================footer====================*/
+footer{
+    background: #43a06d;
+    padding: 15px;
+    width: 1170px;
+    margin: 0 auto;
+}
+footer p{
+    color: #fff;
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+    #header,
+    .container.boxes,
+    .container.block,
+    .container.map,
+    #copy{
+        width: 970px;
+    }
+    #header h1,
+    #header title{
+        font-size: 40px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Extra Small Devices, Phones*/
+@media only screen and (max-width: 480px) {
+
+}
